@@ -1,0 +1,16 @@
+.checkout {
+  display: grid;
+  grid-template-columns: [first] 74.5% [second] 25.5%;
+  padding: 20px;
+  background-color: white;
+  height: max-content;
+  .checkout__left {
+    div {
+      .checkout__title {
+        margin-right: 10px;
+        padding: 10px;
+        border-bottom: 1px solid lightgray;
+      }
+    }
+  }
+}

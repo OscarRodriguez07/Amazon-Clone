@@ -1,0 +1,43 @@
+.payment {
+  background: white;
+}
+.payment section .payment__title h3 {
+  margin-left: 15%;
+}
+.payment section .payment__title img {
+  justify-self: center;
+}
+.payment section .payment_section {
+  display: flex;
+  padding: 20px;
+  margin: 0 20px;
+  border-bottom: 1px solid lightgray;
+}
+.payment section .payment_section .payment_title {
+  flex: 0.2;
+}
+.payment section .payment_section .payment__adress {
+  padding-left: 6%;
+  flex: 0.8;
+}
+.payment section .payment__items {
+  flex: 0.8;
+}
+.payment section h1 {
+  text-align: center;
+  padding: 10px;
+  font-weight: 400;
+  background: #eaeded;
+  border-bottom: 1px solid lightgray;
+}
+.payment section h1 a {
+  text-decoration: none;
+}
+@media (max-width: 475px) {
+  .payment section .payment_section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/*# sourceMappingURL=payment.css.map */

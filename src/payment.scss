@@ -1,0 +1,40 @@
+.payment {
+  background: white;
+  section {
+    .payment__title {
+      h3 {
+        margin-left: 15%;
+      }
+      img {
+        justify-self: center;
+      }
+    }
+    .payment_section {
+      display: flex;
+      padding: 20px;
+      margin: 0 20px;
+      border-bottom: 1px solid lightgray;
+      .payment_title {
+        flex: 0.2;
+      }
+      .payment__adress {
+        padding-left: 6%;
+        flex: 0.8;
+      }
+    }
+    .payment__items {
+      flex: 0.8;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 10px;
+      font-weight: 400;
+      background: rgb(234, 237, 237);
+      border-bottom: 1px solid lightgray;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}

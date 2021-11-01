@@ -1,0 +1,22 @@
+.checkout {
+  display: grid;
+  grid-template-columns: [first] 74.5% [second] 25.5%;
+  padding: 20px;
+  background-color: white;
+  height: max-content;
+}
+.checkout__left > div > h4 {
+  margin-left: 11px;
+}
+.checkout .checkout__left div .checkout__title {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+@media (max-width: 1000px) {
+  .checkout {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/*# sourceMappingURL=checkout.css.map */
